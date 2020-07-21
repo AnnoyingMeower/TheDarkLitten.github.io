@@ -1,0 +1,118 @@
+.Contact {
+    color: #2166cc;
+}
+
+.adress {
+    color: #2166cc;    
+}
+
+.navigation {
+    height: 190px;
+    background-color: #051336;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* padding: 100px; */
+    /* padding-top: 60px;
+    padding-bottom: 60px;
+    padding-right: 100px;
+    padding-left: 100px; */
+}
+body {
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+ .navigation > .left-column {
+    display: flex;
+    align-items: center;
+    color: #2166cc;
+}
+
+ .navigation > .left-column > .icon {
+    margin-right: 15px;
+}
+
+ .navigation > .left-column > .icon i {
+    font-size: 2em;
+}
+
+ .navigation > .left-column > .Contact {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+}
+
+ .links > .nav-link {
+     font-family: 'Roboto', sans-serif;
+     color: #2166cc;
+ }
+
+ .nav-link a {
+    font-family: 'Roboto', sans-serif;
+    color: #2166cc;
+}
+
+ .navigation > .middle-column {
+     display: grid;
+     grid-template-columns: 1fr;
+     grid-gap: 42px;
+     width: 500px;
+ }
+
+ .navigation > .middle-column > .banner {
+    display: flex;
+    justify-content: center;
+ }
+
+  .navigation > .middle-column > .banner img{
+      width: 110px;
+      height: 110px;
+  }
+
+   .links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   }
+
+   .links > .nav-link a {
+       font-family: "Ubuntu Condensed", sans-serif;
+       color: #2166cc;
+       text-decoration: none;
+       transition: 0.5s;
+   }
+
+   .links > .nav-link a:hover {
+    color: #18aa32;
+    letter-spacing: 2px;
+   }
+
+   .links > .nav-link {
+    width: 70px;
+    text-align: center;
+   }
+
+   .navigation > .right-column {
+       display: flex;
+       align-items: center;
+   }
+   .navigation > .right-column > .adress {
+       font-family: "Ubuntu Condensed", sans-serif;
+       text-align: right;
+   }
+
+   .navigation > .right-column > .adress a {
+    color: #2166cc;
+    text-decoration: none;
+    font-size: 0.9em;
+    transition: 0.5s;
+}
+
+.navigation > .right-column > .adress a:hover {
+    color: #18aa32;
+}
+
+    .navigation > .right-column > .Contact {
+        font-size: 2em;
+    }
